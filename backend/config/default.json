@@ -1,0 +1,7 @@
+
+
+{
+    "mongoURI":
+      "mongodb+srv://eririmaki:destiny123@cluster0.cass3.mongodb.net/test?retryWrites=true&w=majority"
+}
+
