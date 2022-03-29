@@ -15,5 +15,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.a43e235c-da77-4eda-9249-79b6af6e0dfe}}
-          heroku_app_name: "eririmaki_gitaction" #Must be unique in Heroku
+          heroku_app_name: "eririmaki-gitaction" #Must be unique in Heroku
           heroku_email: "morimkbs@gmail.com"
