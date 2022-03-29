@@ -16,7 +16,7 @@ app.use(express.json({  extended: false}));
 app.use('/api/books',books);
 
 if(process.env.Status === "production"){
-    app.use(express.static(path.join(__dirname, "../mern/build")));
+    app.use(express.static(path.join(__dirname, "/mern/build")));
     app.get('*', (req,res) => {
         res.sendFile(path.join(__dirname,'mern','build','index.html'));
    });
